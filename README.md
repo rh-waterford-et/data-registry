@@ -148,15 +148,6 @@ cd openshift
 
 This creates BuildConfigs, ImageStreams, Deployments, Services, and Routes in the `lineage` namespace. The backend is built from `backend/` and the frontend from `frontend/` using binary builds.
 
-### Local (Kind cluster)
-
-```bash
-cd ../local-kind
-./setup.sh
-```
-
-Sets up a Kind cluster with Marquez, MLflow, MinIO, and the dataset registry. Uses Podman by default, falls back to Docker. See `local-kind/README.md` for details.
-
 
 ## Environment Variables
 
